@@ -1,1 +1,1 @@
-# aiu-semester-simulation
+# AIU New Semester Simulation
