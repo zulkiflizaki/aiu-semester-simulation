@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎓 AIU Semester Simulation Dashboard
 
 > An interactive academic planning and workload simulation dashboard for **Albukhary International University (AIU)**.
@@ -210,4 +209,3 @@ Albukhary International University
 - Educational Technology
 =======
 # AIU New Semester Simulation
->>>>>>> 2c1145e664ee447c978f2d806c0171e7df1c13df
