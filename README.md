@@ -207,5 +207,3 @@ Albukhary International University
 - Internet of Things (IoT)
 - Software Engineering
 - Educational Technology
-=======
-# AIU New Semester Simulation
