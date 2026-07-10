@@ -378,6 +378,36 @@
           display: none;
         }
       }
+
+      .live-indicator {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: #ff3b30;
+        color: #ffffff;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+      }
+
+      .live-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        animation: pulse 1s infinite alternate;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 0.3;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
     </style>
   </head>
   <body>
@@ -388,7 +418,9 @@
           <p>Bachelor in Data Science · Academic Cycle 2026–2027</p>
         </div>
         <div class="document-meta">
-          <div class="badge">Revision 10.07.2026</div>
+          <div class="badge live-indicator">
+            <span class="live-dot"></span> Revision 10.07.2026
+          </div>
           <p class="template-credit">Created by Ts. Zulkifli Zaki</p>
         </div>
       </header>
